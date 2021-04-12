@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Hanalei Fill', cursive;
+	letter-spacing: 10px;
+}
+
+p {
+	font-family: 'Redressed', cursive;
+	font-size: 2rem !important;
+}
+
+@media screen and (orientation: landscape)
+{
+	form button {
+		margin-bottom: 50rem !important;
+	}
+}

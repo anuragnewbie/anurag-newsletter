@@ -1,0 +1,118 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #0a0436;
+}
+
+.outer-container {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #0a0436;
+}
+
+.outer-container .form-parent {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 940px) {
+  .form-parent {
+    width: 50%;
+  }
+}
+
+.form-parent .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-parent .form-control:focus {
+  z-index: 2;
+}
+
+.form-parent h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2.5px !important;
+  z-index: 2 !important;
+}
+
+.form-parent h1, button, p {
+  position: relative;
+}
+
+.form-parent button {
+  letter-spacing: 2px;
+}
+
+.form-parent p {
+  color: goldenrod !important;
+}
+
+#logo-icon {
+  position: relative;
+  margin: 0 auto;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.middle {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+.bottom {
+  margin-bottom: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media screen and (max-width: 375px)
+{
+  h1 {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media screen and (min-width: 769px)
+{
+  .form-signin img {
+    width: 225px;
+    height: 225px;
+  }
+}
